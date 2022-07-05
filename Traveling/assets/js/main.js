@@ -430,6 +430,7 @@ var main = (function($) { var _ = {
  							// Set background stuff.
 	 							s.$slideImage
 		 							.css('background-image', '')
+		 							// .css('background-position', 'center');
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
 						// Caption.
